@@ -1,6 +1,6 @@
 **Leé esto en [Español](README.md).**
 
-Turnero Bot
+#Turnero Bot
 
 A chat-based appointment booking bot — configurable per business and channel-agnostic. A business (hair salon, medical office, gym) defines its setup in a single config file and gets an assistant that books appointments with its customers through a WhatsApp-style conversation.
 
