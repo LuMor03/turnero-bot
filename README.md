@@ -15,8 +15,7 @@ Muchos negocios chicos coordinan turnos a mano por WhatsApp: el cliente escribe,
 
 ## Demo
 
-<!-- Reemplazá esta línea por un GIF o captura del chat en acción -->
-_![Demo del bot reservando un turno](docs/demo.gif)_
+![Demo del bot reservando un turno](docs/demo.gif)
 
 El proyecto incluye una interfaz de chat web que simula WhatsApp, para poder probar toda la lógica sin depender de la API de Meta.
 
