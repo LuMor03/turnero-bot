@@ -1,4 +1,4 @@
-Leé esto en español.
+**Leé esto en [Español](README.md).**
 
 Turnero Bot
 
