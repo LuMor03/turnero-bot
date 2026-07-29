@@ -1,3 +1,5 @@
+**Read this in [English](README.en.md).**
+
 # Turnero Bot
 
 **Bot de agendamiento de turnos por chat, configurable por negocio y agnóstico al canal.** Un negocio (peluquería, consultorio, gimnasio) define su configuración en un archivo y obtiene un asistente que coordina turnos con sus clientes en una conversación tipo WhatsApp.
