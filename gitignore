@@ -1,0 +1,21 @@
+# Dependencias (se reinstalan con "npm install")
+node_modules/
+
+# Base de datos en runtime (se genera sola al correr el bot)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+data.sqlite*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variables de entorno (por si más adelante guardás claves acá)
+.env
+
+# Archivos del sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

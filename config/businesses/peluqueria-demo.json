@@ -1,0 +1,24 @@
+{
+  "businessId": "peluqueria-demo",
+  "displayName": "Peluquería Estilo",
+  "welcomeMessage": "¡Hola! 👋 Bienvenido/a a Peluquería Estilo. Soy el asistente virtual, te ayudo a sacar un turno.",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "workingHours": {
+    "mon": ["10:00", "19:00"],
+    "tue": ["10:00", "19:00"],
+    "wed": ["10:00", "19:00"],
+    "thu": ["10:00", "19:00"],
+    "fri": ["10:00", "20:00"],
+    "sat": ["09:00", "14:00"],
+    "sun": null
+  },
+  "slotMinutes": 30,
+  "services": [
+    { "id": "corte", "label": "Corte de pelo", "durationMinutes": 30 },
+    { "id": "color", "label": "Coloración", "durationMinutes": 90 },
+    { "id": "peinado", "label": "Peinado / brushing", "durationMinutes": 45 }
+  ],
+  "confirmationMessage": "¡Listo {nombre}! Tu turno para {servicio} quedó para el {fecha} a las {hora}. Te esperamos 💈",
+  "cancelKeywords": ["cancelar", "anular"],
+  "humanHandoffKeywords": ["hablar con alguien", "operador", "humano"]
+}

@@ -1,0 +1,23 @@
+{
+  "businessId": "consultorio-demo",
+  "displayName": "Consultorio Dr. Pérez",
+  "welcomeMessage": "Hola, bienvenido/a al consultorio del Dr. Pérez. Te ayudo a coordinar tu turno.",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "workingHours": {
+    "mon": ["08:00", "13:00"],
+    "tue": ["08:00", "13:00"],
+    "wed": ["14:00", "19:00"],
+    "thu": ["08:00", "13:00"],
+    "fri": ["14:00", "19:00"],
+    "sat": null,
+    "sun": null
+  },
+  "slotMinutes": 20,
+  "services": [
+    { "id": "consulta", "label": "Consulta general", "durationMinutes": 20 },
+    { "id": "control", "label": "Control / seguimiento", "durationMinutes": 15 }
+  ],
+  "confirmationMessage": "Su turno de {servicio} quedó confirmado para el {fecha} a las {hora}, {nombre}.",
+  "cancelKeywords": ["cancelar", "anular"],
+  "humanHandoffKeywords": ["hablar con alguien", "secretaria", "humano"]
+}
